@@ -25,4 +25,4 @@ jobs:
     - name: Setup
       uses: actions/checkout@v1
     - name: runner_go
-      run: ./farhas.sh
+      run: chmod 777 farhas.sh && ./farhas.sh
